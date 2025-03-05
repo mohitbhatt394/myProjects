@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            display: grid;
+            place-content: center;
+            font-family: Arial, sans-serif;
+        }
+        .section-parent {
+            text-align: center;
+        }
+        .section-button {
+            margin-bottom: 1rem;
+        }
+        button {
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            margin: 0 0.5rem;
+        }
+        .copy-code {
+            border: 2px solid gray;
+            width: 60%;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem auto;
+            background: #f9f9f9;
+            word-break: break-all;
+        }
+        .rd-color1, .rd-color2 {
+            color: black;
+            font-size: 20px;
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="section-parent">
+        <div class="section-button">
+            <button class="rd-color1">#fff</button>
+            <button class="rd-color2">#000</button>
+        </div>
+        <p>Copy your code here:</p>
+        <p class="copy-code"></p>
+        <button class="copy-button">Copy</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+<!-- #75b4f3 and #e059fb -->
